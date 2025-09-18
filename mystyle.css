@@ -159,3 +159,49 @@ menu {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     object-fit: contain;
 }
+#products2{
+    padding-left: 10px;
+    font-family: 'charm';
+    font-size: 35px;
+    margin-top: -20px;
+    background-color: #d29c6c;
+    background-size: 1px;
+    text-align: center;
+} 
+.products2 {
+    width: 180px;
+    height: -10 auto;
+    margin: 15px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    object-fit: contain;
+    font-size: 20px;
+}
+.products2 img {
+    width: 100%;
+    height: auto;
+}
+#contact2{
+    font-family: 'charm';
+    background-color: #793d20;
+    background-size: cover;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    line-height: 1.3;
+    text-decoration: underline;
+    max-width: 500px;
+    margin: 20px auto;
+    font-size: 15px;
+}
+
+.row{
+    flex-wrap: wrap;
+}
