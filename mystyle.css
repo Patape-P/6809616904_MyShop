@@ -4,8 +4,7 @@
 body{
     margin: 0px ;
     padding: 0px ;
-    background-color: #F0C8A5
-;
+    background-color: #F0C8A5;
 }
 a { 
     color: black;
@@ -204,4 +203,5 @@ menu {
 
 .row{
     flex-wrap: wrap;
+    display: flex;
 }
