@@ -118,7 +118,7 @@ menu {
 
 #price {
     font-weight: bolder;
-    background-color:#CCA581 ;
+    background-color:#793d20;
     border-radius: 20px;
     text-align: center;
     width: 100%;
@@ -128,8 +128,12 @@ menu {
     font-family: 'charm';
     padding: -10px -10px -10px;
     margin-top: 10px;
+    color: #fff;
 }
-
+#price:hover{
+    background-color: #F0C8A5;
+    color: black;
+}
 #contact{
     font-family: 'charm';
     background-color: #793d20;
@@ -163,7 +167,7 @@ menu {
     font-family: 'charm';
     font-size: 35px;
     margin-top: -20px;
-    background-color: #d29c6c;
+    background-color:#b87f4c;
     background-size: 1px;
     text-align: center;
 } 
@@ -181,7 +185,8 @@ menu {
 }
 .products2 img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    border-radius: 10px;
 }
 #contact2{
     font-family: 'charm';
@@ -204,4 +209,24 @@ menu {
 .row{
     flex-wrap: wrap;
     display: flex;
+}
+
+.fixed{
+    background-color: #793d20;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    font-size: smaller;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+}
+
+.fixed:hover{
+    background-color:#CCA581;
+    color:black;
 }
